@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+        <link href="css/styles.css" rel="stylesheet" type="text/css">
+        <script src="https://code.jquery.com/jquery-3.2.1.js" integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE=" crossorigin="anonymous"></script>
+        <script type="text/javascript" src="js/scripts.js"></script>
+        <title>triangle tracker</title>
+    </head>
+    <body>
+        <div class="container">
+            <div class="jumbotron">
+                <h1>Triangle Tracker</h1>
+                <h3>Enter the sides of your triangle and I will tell you what type of triangle it is!</h3>
+                <p><a class="btn btn-primary btn-lg" role="button" id="play">Play!</a></p>
+            </div>
+
+            <form class="sides">
+                <label for="side1">Side 1</label>
+                <input id="side1" type="text">
+                <label for="side2">Side 2</label>
+                <input id="side2"type="text">
+                <label for="side3">Side 3</label>
+                <input id="side3"type="text">
+                <button id="doIt" type="submit" class="btn btn-danger btn-md">Do it!</button>
+            </form>
+
+            <div class="result">
+                <h3>Your triangle is</h3>
+            </div>
+            <div class="Equi">
+                <h1>Equilateral</h1>
+            </div>
+            <div class="isos">
+                <h1>Isosceles</h1>
+            </div>
+            <div class="Scale">
+                <h1>Scalene</h1>
+            </div>
+            <div class="not">
+                <h1>Totally not a triangle</h1>
+            </div>
+
+        </div>
+    </body>
+</html>

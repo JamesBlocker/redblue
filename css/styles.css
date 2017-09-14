@@ -1,0 +1,30 @@
+.sides {
+    display: none;
+    padding-top: 10em;
+}
+
+
+#doIt {
+    display: block;
+}
+
+.result {
+    display: none;
+    padding-top: 10em;
+}
+
+.equi {
+    display: none;
+}
+
+.isos {
+    display: none;
+}
+
+.scale {
+    display: none;
+}
+
+.not {
+    display: none;
+}
