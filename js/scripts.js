@@ -18,20 +18,8 @@ $(document).ready(function() {
             } else {
                 $('.scale').fadeIn();
             }
-
         }, 2000);
-
 
         event.preventDefault();
     });
 });
-
-
-
-
-// $('#play').click(function(){
-//     $('.jumbotron').fadeOut(1000);
-//     setTimeout(function() {
-//         $('.sides').fadeIn(1500);
-//     }, 1000);
-// });
